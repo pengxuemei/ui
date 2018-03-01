@@ -1,0 +1,282 @@
+{
+  "v": "6.2.0",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": false
+  },
+  "a": {
+    
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 2723,
+      "p": {
+        "name": "AC",
+        "icon": "AC.png",
+        "image": "AC.png",
+        "position": {
+          "x": 694.3,
+          "y": -172.05
+        },
+        "tag": "FPaP8kkMjVaZznmWwUGnNZdVWqgVYQqWIBIgTTKsqQaJwFkyMsTRLaFTSGZrxcYw4Mjpqn0tB5givBRLu0BMmI3bGpOvA2hQasNEDxYet0TXQGyM46TEczRxsr0CP4Fi"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2724,
+      "p": {
+        "name": "刀闸",
+        "image": "刀闸.json",
+        "position": {
+          "x": 694.45,
+          "y": -67.25
+        },
+        "tag": "3UvRutsJF1AGI0EEVnB2lV7IYv7sVhpNXCahp1wzUvnAd3QAChTTtoNUAGaHnfC6GdrT8Pc1Sgs5iYbHjtAPS09ULM7WtNyytQUh6c3VFC5RmkVuiEh8VvGrYhI3jWh7"
+      },
+      "a": {
+        "state": false,
+        "enabled": true
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2726,
+      "p": {
+        "name": "DC",
+        "icon": "DC.png",
+        "image": "DC.png",
+        "position": {
+          "x": 693,
+          "y": 168.8
+        },
+        "tag": "K7EnbXB9FK1Kn6qwwYOQIWqdZTlIF4NyyD6oRJ4ZsYQWq3FyIYDX73mYQCX4gb4FiGp21H027I3iH4CSBgVcIKeEPOPbMwKMvHgsRT4jXVLhc5FSBPPNEegycS9Ww91y"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2727,
+      "p": {
+        "name": "DC/DC",
+        "icon": "DC-DC.png",
+        "image": "DC-DC.png",
+        "position": {
+          "x": 501.9,
+          "y": 309.75
+        },
+        "tag": "LAtnWi4dd3ScePyqcU8NMEQHmBIbYeUmIsvZHXlQBUGzT9MwHD4KSnnq3G1FAJynuUk8MY9vGyf9TNZ52QLwGFWCaZ4P0o90DcUT8NRibSf4Vg7dJPxjAKWOEZ6TveRC"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2728,
+      "p": {
+        "name": "DC/DC",
+        "icon": "DC-DC.png",
+        "image": "DC-DC.png",
+        "position": {
+          "x": 875.7,
+          "y": 312.9
+        },
+        "tag": "gESU3Kp52uUQ5zyH42uSBH56g9f2dEo7brR23QuUcBCnwxbtLfZmlQnmXVcdZ01u7oM4O61nErjUiROidMS6MKnPgMKNu15KqLcDi6vM7ozQEhETxF7RPJK0Py1w6dRD"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2729,
+      "p": {
+        "name": "光伏",
+        "icon": "光伏.png",
+        "image": "光伏.png",
+        "position": {
+          "x": 500.85,
+          "y": 443.1
+        },
+        "tag": "bgXPJdDS3zSk9xeG1rzeLh60XbQ02sV2PlIoyArj0ZvlKRoya7Z2e6Zx5rwnIhkETOepu7MjcRhGDfSe6e2SG4QvIzy3e4MlI2t5UzPCMcsKaCkB3CDkSzKb1NEQh9ZF"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2730,
+      "p": {
+        "name": "BMS",
+        "icon": "BMS.png",
+        "image": "BMS.png",
+        "position": {
+          "x": 878.85,
+          "y": 443.1
+        },
+        "tag": "yHaIfhguEP1UW9yf8AnTt70xgcU0HrdodIAgpfyqKEzJaoQdviDg2BQDaN2oYX5uDwYS3NKqIb4DDv22vGbs8tvHUTQnaNQ65ExSVRTUahQsMYG0xUrtkpuETSD2iwCn"
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2731,
+      "p": {
+        "source": {
+          "__i": 2729
+        },
+        "target": {
+          "__i": 2727
+        }
+      },
+      "s": {
+        "edge.type": null
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2732,
+      "p": {
+        "source": {
+          "__i": 2730
+        },
+        "target": {
+          "__i": 2728
+        }
+      },
+      "s": {
+        "edge.type": null
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2733,
+      "p": {
+        "source": {
+          "__i": 2727
+        },
+        "target": {
+          "__i": 2726
+        }
+      },
+      "s": {
+        "edge.type": "points",
+        "edge.points": {
+          "__a": [
+            {
+              "x": 501.9,
+              "y": 166.825
+            }
+          ]
+        }
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2734,
+      "p": {
+        "source": {
+          "__i": 2728
+        },
+        "target": {
+          "__i": 2726
+        }
+      },
+      "s": {
+        "edge.type": "points",
+        "edge.points": {
+          "__a": [
+            {
+              "x": 877.8,
+              "y": 169.45
+            }
+          ]
+        }
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2735,
+      "p": {
+        "source": {
+          "__i": 2726
+        },
+        "target": {
+          "__i": 2725
+        }
+      },
+      "s": {
+        "edge.type": null
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2736,
+      "p": {
+        "source": {
+          "__i": 2725
+        },
+        "target": {
+          "__i": 2724
+        }
+      },
+      "s": {
+        "edge.type": null
+      }
+    },
+    {
+      "c": "ht.Edge",
+      "i": 2737,
+      "p": {
+        "source": {
+          "__i": 2724
+        },
+        "target": {
+          "__i": 2723
+        }
+      },
+      "s": {
+        "edge.type": null
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 2856,
+      "p": {
+        "position": {
+          "x": 734.774,
+          "y": 46.5
+        },
+        "width": 130.248,
+        "height": 50
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 2725,
+      "p": {
+        "name": "AC/DC",
+        "icon": "AC-DC.png",
+        "parent": {
+          "__i": 2856
+        },
+        "image": "AC-DC.png",
+        "position": {
+          "x": 694.65,
+          "y": 46.5
+        },
+        "tag": "KPeyMyFWVreV1647pYi4Po6aQA4QN2OsoyISPUkmsE4dZ1uQ44IKCThhqnL4j6dwSAAm5Mm1fbz4FtvwvIEsLKBR7Hnk2uE2RgLSKUmlZDZObPgrbBMKRu61EMWcVt4j"
+      }
+    },
+    {
+      "c": "ht.Text",
+      "i": 2759,
+      "p": {
+        "parent": {
+          "__i": 2856
+        },
+        "position": {
+          "x": 770.64514,
+          "y": 56.58751
+        },
+        "width": 58.50573,
+        "height": 24.93687,
+        "tag": "KPeyMyFWVreV1647pYi4Po6aQA4QN2OsoyISPUkmsE4dZ1uQ44IKCThhqnL4j6dwSAAm5Mm1fbz4FtvwvIEsLKBR7Hnk2uE2RgLSKUmlZDZObPgrbBMKRu61EMWcVt4j_lable"
+      },
+      "s": {
+        "text": "value"
+      }
+    }
+  ]
+}
